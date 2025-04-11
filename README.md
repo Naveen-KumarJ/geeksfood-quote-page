@@ -4,7 +4,7 @@ A simple and elegant React application to display a collection of motivational a
 
 ## 🚀 Live Demo
 
-Check out the deployed version here: [https://your-vercel-link.vercel.app](https://your-vercel-link.vercel.app)
+Check out the deployed version here: [https://your-vercel-link.vercel.app](https://geeksfood-quote-page.vercel.app/)
 
 ## 📸 Features
 
