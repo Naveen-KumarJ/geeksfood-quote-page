@@ -1,0 +1,109 @@
+header {
+  background-color: #111827;
+  color: white;
+  padding: 0 20px;
+  height: 10vh;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.logocontainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navItemsList {
+  display: none;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navItemsList > li {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.navItemsList > li:hover {
+  color: #3b82f6;
+}
+
+.active {
+  color: #3b82f6;
+}
+
+.getStartedBtn {
+  display: none;
+  background-color: #2563eb;
+  border: none;
+  outline: none;
+  color: white;
+  font-weight: 500;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.getStartedBtn:hover {
+  background-color: #3b82f6;
+}
+
+.menu {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+
+
+@media screen and (min-width: 768px) {
+  .navItemsList {
+    display: flex;
+  }
+
+  .getStartedBtn {
+    display: block;
+  }
+
+  .menu {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .navItemsList > li {
+    margin-bottom: 10px;
+  }
+
+  .mobileBtn {
+    display: block;
+    margin-top: 10px;
+  }
+
+  .getStartedBtn {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .getStartedBtn {
+    padding: 4px 10px;
+    font-size: 12px;
+  }
+
+  .logocontainer p {
+    font-size: 18px !important;
+  }
+}

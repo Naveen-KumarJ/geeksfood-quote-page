@@ -1,0 +1,40 @@
+.footerSection{
+    background-color: #F3F4F6;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 40px;
+}
+.flex{
+    display: flex;
+}
+.listStyle{
+    gap: 20px;
+    cursor: pointer;
+    flex-direction: column;
+    text-align: center;
+}
+li:hover{
+    color: #0D9488;
+}
+.contacts{
+    font-size: 24px;
+}
+.contacts:hover{
+    color: #0D9488;
+}
+.contactContainer{
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+@media screen and (min-width:768px) {
+    .listStyle{
+        flex-direction: row;
+    }
+    .para{
+        width: 50% !important;
+    }
+}

@@ -1,0 +1,17 @@
+.quoteSection{
+    background-color: ghostwhite;
+    min-height: 100vh;
+    padding: 20px;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+.container>div:nth-of-type(even){
+    background-color: red;
+}
