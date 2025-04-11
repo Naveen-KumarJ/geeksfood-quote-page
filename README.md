@@ -22,10 +22,10 @@ Check out the deployed version here: [https://your-vercel-link.vercel.app](https
 ## 📂 Folder Structure
 ```
     src/ 
-    ├── components/ 
-        ├── QuoteSection.jsx 
-        ├── QuoteCard.jsx 
-        └── QuoteSection.module.css 
-    ├── App.js 
-└── index.js
+        ├── components/ 
+            ├── QuoteSection.jsx 
+            ├── QuoteCard.jsx 
+            └── QuoteSection.module.css 
+        ├── App.js 
+    └── index.js
 ```
