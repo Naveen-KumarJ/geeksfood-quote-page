@@ -1,12 +1,31 @@
-# React + Vite
+# 💬 React Quote Showcase
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and elegant React application to display a collection of motivational and developer quotes. It demonstrates conditional styling, component-based design, and responsive layout using CSS modules.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Check out the deployed version here: [https://your-vercel-link.vercel.app](https://your-vercel-link.vercel.app)
 
-## Expanding the ESLint configuration
+## 📸 Features
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🧠 Displays 30+ quotes (motivational + coding-related)
+- 🔄 Alternating card alignment based on position (left/right)
+- 🎨 Styled with CSS Modules
+- ⚛️ Built with functional components and props
+
+## 🛠️ Tech Stack
+
+- React
+- CSS Modules
+- Vercel (for deployment)
+
+## 📂 Folder Structure
+```
+    src/ 
+    ├── components/ 
+        ├── QuoteSection.jsx 
+        ├── QuoteCard.jsx 
+        └── QuoteSection.module.css 
+    ├── App.js 
+└── index.js
+```
